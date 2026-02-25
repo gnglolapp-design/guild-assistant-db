@@ -1,0 +1,12 @@
+﻿{
+  "title": "Red Demon",
+  "embeds": [
+    {
+      "title": "Red Demon (Fiche boss)",
+      "url": "https://hideoutgacha.com/games/seven-deadly-sins-origin/boss-guide#red_demon",
+      "color": 13276928,
+      "description": "Résumé : guide boss en français (mécaniques + stratégie + conseils).\n\nÀ retenir :\n• Évite les erreurs classiques\n• Prévois une compo adaptée (DPS / buffer / soutien / debuff)\n",
+      "footer": { "text": "Guild Assistant DB • Source : HideoutGacha" }
+    }
+  ]
+}

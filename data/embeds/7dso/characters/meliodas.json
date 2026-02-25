@@ -1,0 +1,23 @@
+﻿{
+  "title": "Meliodas",
+  "embeds": [
+    {
+      "title": "Meliodas (Fiche)",
+      "url": "https://hideoutgacha.com/games/seven-deadly-sins-origin/characters/meliodas",
+      "color": 13276928,
+      "description": "Résumé : ici tu trouveras la fiche complète (stats, armes, compétences, potentiels) en français.\n\nÀ retenir :\n• Utilise ça comme base de build\n• Ajuste selon ton équipe\n",
+      "footer": { "text": "Guild Assistant DB • Source : HideoutGacha" }
+    },
+    {
+      "title": "Stats",
+      "url": "https://hideoutgacha.com/games/seven-deadly-sins-origin/characters/meliodas",
+      "color": 13276928,
+      "fields": [
+        { "name": "PV", "value": "…", "inline": true },
+        { "name": "ATQ", "value": "…", "inline": true },
+        { "name": "DEF", "value": "…", "inline": true }
+      ],
+      "footer": { "text": "Guild Assistant DB • Données : exemple" }
+    }
+  ]
+}
