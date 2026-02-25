@@ -73,7 +73,7 @@ def make_embed(title: str, url: str = "", description: str = "", fields: Optiona
     "title": title[:256],
     "color": EMBED_COLOR,
   }
-  # Note : on évite d'ajouter `url` par défaut pour empêcher la "redirection" (titre cliquable) dans Discord.
+  # Note : on Ã©vite d'ajouter `url` par dÃ©faut pour empÃªcher la "redirection" (titre cliquable) dans Discord.
   if url:
     e["url"] = url
   if description:
@@ -100,7 +100,7 @@ def extract_first_image(soup: BeautifulSoup) -> str:
 
 
 def extract_stats_table(soup: BeautifulSoup) -> Dict[str, str]:
-  # Heuristique : si une table existe, on prend la première
+  # Heuristique : si une table existe, on prend la premiÃ¨re
   tbl = soup.select_one("main table")
   if not tbl:
     return {}
@@ -115,7 +115,7 @@ def extract_stats_table(soup: BeautifulSoup) -> Dict[str, str]:
 
 
 def extract_sections(soup: BeautifulSoup) -> List[Tuple[str, str]]:
-  # On découpe par h2/h3 en gardant le texte dessous
+  # On dÃ©coupe par h2/h3 en gardant le texte dessous
   main = soup.select_one("main")
   if not main:
     return []
@@ -148,7 +148,7 @@ def scrape_hideout(url: str, browser) -> Tuple[str, BeautifulSoup]:
 
 
 def list_pages_hideout(base_list_url: str, browser) -> List[str]:
-  # Récupère tous les liens internes qui ressemblent à des pages de détails
+  # RÃ©cupÃ¨re tous les liens internes qui ressemblent Ã  des pages de dÃ©tails
   html, soup = scrape_hideout(base_list_url, browser)
   links = []
   for a in soup.select("main a[href]"):
@@ -157,7 +157,7 @@ def list_pages_hideout(base_list_url: str, browser) -> List[str]:
       href = "https://hideoutgacha.com" + href
     if href.startswith("https://hideoutgacha.com/") and "/games/seven-deadly-sins-origin/" in href:
       links.append(href.split("#")[0])
-  # dédupe
+  # dÃ©dupe
   seen = set()
   out = []
   for u in links:
@@ -179,11 +179,11 @@ def parse_hideout_character(url: str, browser) -> Optional[Entity]:
 
   kind = "character"
   embeds: List[Dict[str, Any]] = []
-  footer = "Guild Assistant DB • Source : HideoutGacha"
+  footer = "Guild Assistant DB â€¢ Source : HideoutGacha"
 
   main = soup.select_one("main")
 
-  # 1) Fiche (Résumé + À retenir si dispo)
+  # 1) Fiche (RÃ©sumÃ© + Ã€ retenir si dispo)
   intro_lines: List[str] = []
   # Heuristique : premiers <p> du main
   if main:
@@ -193,7 +193,7 @@ def parse_hideout_character(url: str, browser) -> Optional[Entity]:
         intro_lines.append(t)
   intro = digest_lines(intro_lines, 1500)
 
-  # On essaie de récupérer une section "À retenir" / "Key takeaways" si elle existe
+  # On essaie de rÃ©cupÃ©rer une section "Ã€ retenir" / "Key takeaways" si elle existe
   takeaways_body = ""
   takeaways_key = ""
   for t, body in sections:
@@ -207,20 +207,20 @@ def parse_hideout_character(url: str, browser) -> Optional[Entity]:
     lines = [ln.strip() for ln in s.splitlines() if ln.strip()]
     out: List[str] = []
     for ln in lines:
-      if ln.startswith(("•", "-", "*", "1.", "2.", "3.")):
+      if ln.startswith(("â€¢", "-", "*", "1.", "2.", "3.")):
         out.append(ln)
       else:
-        out.append("• " + ln)
+        out.append("â€¢ " + ln)
     return "\n".join(out).strip()
 
   desc_parts: List[str] = []
   if intro:
-    desc_parts.append(f"Résumé : {intro}")
+    desc_parts.append(f"RÃ©sumÃ© : {intro}")
   else:
-    desc_parts.append("Résumé : fiche générée automatiquement à partir de la source.")
+    desc_parts.append("RÃ©sumÃ© : fiche gÃ©nÃ©rÃ©e automatiquement Ã  partir de la source.")
 
   if takeaways_body:
-    desc_parts.append("À retenir :\n" + normalize_bullets(takeaways_body))
+    desc_parts.append("Ã€ retenir :\n" + normalize_bullets(takeaways_body))
 
   fiche_desc = "\n\n".join([p for p in desc_parts if p]).strip()
   embeds.append(make_embed(
@@ -243,7 +243,7 @@ def parse_hideout_character(url: str, browser) -> Optional[Entity]:
       footer=footer,
     ))
 
-  # 3) Sections (on filtre un minimum pour éviter doublons/bruit)
+  # 3) Sections (on filtre un minimum pour Ã©viter doublons/bruit)
   seen_titles = set(["fiche", "stats"])
   if takeaways_key:
     seen_titles.add(takeaways_key)
@@ -251,7 +251,7 @@ def parse_hideout_character(url: str, browser) -> Optional[Entity]:
     key = slugify(t)
     if not key or key in seen_titles:
       continue
-    if any(x in key for x in ["commentaires", "sources", "credits", "footer"]):
+    if any(x in key for x in ["commentaires", "sources", "credits", "footer", "overview", "apercu", "aperçu"]):
       continue
     seen_titles.add(key)
     embeds.append(make_embed(
@@ -275,7 +275,7 @@ def parse_hideout_boss(url: str, browser) -> Optional[Entity]:
 
   kind = "boss"
   embeds: List[Dict[str, Any]] = []
-  footer = "Guild Assistant DB • Source : HideoutGacha"
+  footer = "Guild Assistant DB â€¢ Source : HideoutGacha"
 
   main = soup.select_one("main")
   intro_lines: List[str] = []
@@ -296,7 +296,7 @@ def parse_hideout_boss(url: str, browser) -> Optional[Entity]:
   else:
     embeds.append(make_embed(
       title=f"{name} (Boss)",
-      description="Fiche générée automatiquement à partir de la source.",
+      description="Fiche gÃ©nÃ©rÃ©e automatiquement Ã  partir de la source.",
       thumbnail_url=image_url,
       image_url=image_url,
       footer=footer,
@@ -347,7 +347,7 @@ def main():
     char_urls = list_pages_hideout(list_char, browser)
     boss_urls = list_pages_hideout(list_boss, browser)
 
-    # garde uniquement les pages "profondes" (pas les pages de listing elles-mêmes)
+    # garde uniquement les pages "profondes" (pas les pages de listing elles-mÃªmes)
     char_urls = [u for u in char_urls if u != list_char]
     boss_urls = [u for u in boss_urls if u != list_boss]
 
