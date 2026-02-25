@@ -1,0 +1,11 @@
+{
+  "name": "guild-assistant-db-worker",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.68.1"
+  }
+}

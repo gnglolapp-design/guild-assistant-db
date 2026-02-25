@@ -1,0 +1,15 @@
+﻿name = "guild-assistant-db"
+main = "src/index.js"
+compatibility_date = "2026-02-25"
+
+[vars]
+DISCORD_APPLICATION_ID = "1476169683945127966"
+# Remplace si besoin : URL raw vers /data/ du repo
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/gnglolapp-design/guild-assistant-db/main/data"
+# À définir en secret : DISCORD_PUBLIC_KEY (via wrangler secret put)
+
+[[kv_namespaces]]
+binding = "EVENTS_KV"
+id = "afb9e62e3fc44429a11a667e428dcd81"
+
+
