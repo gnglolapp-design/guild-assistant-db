@@ -5,7 +5,7 @@
         {
           "title": "Gilthunder (Fiche)",
           "color": 15911244,
-          "description": "Résumé : Gilthunder\nAll-Lightning SR character. Essential for the Mines mission where his Lightning Spear adventure skill is required to redirect mine carts. Lance applies Paralysis via Shock combo for powerful damage windows; Sword & Shield provides a reflective Lightning Barrier; Longsword spreads Shock to multiple enemies.",
+          "description": "RÃ©sumÃ© : Gilthunder\nAll-Lightning SR character. Essential for the Mines mission where his Lightning Spear adventure skill is required to redirect mine carts. Lance applies Paralysis via Shock combo for powerful damage windows; Sword & Shield provides a reflective Lightning Barrier; Longsword spreads Shock to multiple enemies.",
           "thumbnail": {
             "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_gil_thunder_001.png"
           },
@@ -13,15 +13,7 @@
             "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_gil_thunder_001.png"
           },
           "footer": {
-            "text": "Guild Assistant DB • Source : HideoutGacha"
-          }
-        },
-        {
-          "title": "Overview",
-          "color": 15911244,
-          "description": "All-Lightning SR character. Essential for the Mines mission where his Lightning Spear adventure skill is required to redirect mine carts. Lance applies Paralysis via Shock combo for powerful damage windows; Sword & Shield provides a reflective Lightning Barrier; Longsword spreads Shock to multiple enemies.",
-          "footer": {
-            "text": "Guild Assistant DB • Source : HideoutGacha"
+            "text": "Guild Assistant DB â€¢ Source : HideoutGacha"
           }
         }
       ]
