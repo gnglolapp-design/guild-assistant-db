@@ -1,0 +1,7 @@
+﻿.zip
+no-redirect.patch
+.wrangler/
+guild-assistant-db/
+.venv/
+node_modules/
+worker/node_modules/
