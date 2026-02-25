@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "Bug (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Bug\nOriginal character designed for Seven Deadly Sins: Origin. A Darkness-element DPS with three distinct playstyles: raw burst with Axe, back-attack assassin with Dual Swords, and stealth/decoy utility with Book.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_bug_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_bug_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "Original character designed for Seven Deadly Sins: Origin. A Darkness-element DPS with three distinct playstyles: raw burst with Axe, back-attack assassin with Dual Swords, and stealth/decoy utility with Book.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}

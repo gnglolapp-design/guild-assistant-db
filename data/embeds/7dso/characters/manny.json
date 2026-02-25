@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "Manny (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Manny\nDragon Priestess with Holy and Cold elemental mastery. Staff amplifies Crit Damage and Ultimate power for allies; Dual Swords excels in Chill/Frostbite combo chains; Longsword focuses on Freeze and Frost Strike burst damage.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_manny_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_manny_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "Dragon Priestess with Holy and Cold elemental mastery. Staff amplifies Crit Damage and Ultimate power for allies; Dual Swords excels in Chill/Frostbite combo chains; Longsword focuses on Freeze and Frost Strike burst damage.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}

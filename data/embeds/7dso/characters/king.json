@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "King (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : King\nThe Fairy King excels in diverse elemental typings (Holy/Physical/Earth). Staff builds Bloom stacks for enormous offensive scaling; Book provides team damage reduction and powerful counter-attack healing; Wand regenerates magic points for ultimate-heavy compositions.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_king_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_king_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "The Fairy King excels in diverse elemental typings (Holy/Physical/Earth). Staff builds Bloom stacks for enormous offensive scaling; Book provides team damage reduction and powerful counter-attack healing; Wand regenerates magic points for ultimate-heavy compositions.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}

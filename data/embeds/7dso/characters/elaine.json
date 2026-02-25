@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "Elaine (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Elaine\nA strong support/utility character rated S or high-A tier by the community. Wand is a Wind-element DPS with escalating Crit Damage; Staff is a Burst acceleration support that restores magic and protects allies; Book brings Earth Petrify crowd control with team double-damage on Petrified enemies.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_elaine_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_elaine_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "A strong support/utility character rated S or high-A tier by the community. Wand is a Wind-element DPS with escalating Crit Damage; Staff is a Burst acceleration support that restores magic and protects allies; Book brings Earth Petrify crowd control with team double-damage on Petrified enemies.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "Griamore (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Griamore\nA tanky barrier-focused character. Sword & Shield provides defensive stancing and DEF scaling damage; Nunchucks generates barriers to cycle Special Attack quickly for burst damage; Gauntlets excels at Stun control and Burst Gauge acceleration.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_griamore_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_griamore_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "A tanky barrier-focused character. Sword & Shield provides defensive stancing and DEF scaling damage; Nunchucks generates barriers to cycle Special Attack quickly for burst damage; Gauntlets excels at Stun control and Burst Gauge acceleration.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}

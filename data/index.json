@@ -1,6 +1,6 @@
-﻿{
+{
   "version": 1,
-  "updated_at_utc": "2026-02-25T00:00:00Z",
+  "updated_at_utc": "2026-02-25T14:44:50Z",
   "items": [
     {
       "type": "character",
@@ -10,11 +10,130 @@
       "embeds_path": "embeds/7dso/characters/meliodas.json"
     },
     {
-      "type": "boss",
+      "type": "character",
       "game": "7dso",
-      "name": "Red Demon",
-      "slug": "red_demon",
-      "embeds_path": "embeds/7dso/bosses/red_demon.json"
+      "name": "Jericho",
+      "slug": "jericho",
+      "embeds_path": "embeds/7dso/characters/jericho.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Tristan",
+      "slug": "tristan",
+      "embeds_path": "embeds/7dso/characters/tristan.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Drake",
+      "slug": "drake",
+      "embeds_path": "embeds/7dso/characters/drake.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Howzer",
+      "slug": "howzer",
+      "embeds_path": "embeds/7dso/characters/howzer.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Bug",
+      "slug": "bug",
+      "embeds_path": "embeds/7dso/characters/bug.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Dreyfus",
+      "slug": "dreyfus",
+      "embeds_path": "embeds/7dso/characters/dreyfus.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Gilthunder",
+      "slug": "gil_thunder",
+      "embeds_path": "embeds/7dso/characters/gil_thunder.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Dreydrin",
+      "slug": "dreydrin",
+      "embeds_path": "embeds/7dso/characters/dreydrin.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Griamore",
+      "slug": "griamore",
+      "embeds_path": "embeds/7dso/characters/griamore.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Hendrickson",
+      "slug": "hendrickson",
+      "embeds_path": "embeds/7dso/characters/hendrickson.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Manny",
+      "slug": "manny",
+      "embeds_path": "embeds/7dso/characters/manny.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Elaine",
+      "slug": "elaine",
+      "embeds_path": "embeds/7dso/characters/elaine.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "King",
+      "slug": "king",
+      "embeds_path": "embeds/7dso/characters/king.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Slater",
+      "slug": "slader",
+      "embeds_path": "embeds/7dso/characters/slader.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Guila",
+      "slug": "guila",
+      "embeds_path": "embeds/7dso/characters/guila.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Diane",
+      "slug": "diane",
+      "embeds_path": "embeds/7dso/characters/diane.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Tioreh",
+      "slug": "tioreh",
+      "embeds_path": "embeds/7dso/characters/tioreh.json"
+    },
+    {
+      "type": "character",
+      "game": "7dso",
+      "name": "Daisy",
+      "slug": "daisy",
+      "embeds_path": "embeds/7dso/characters/daisy.json"
     }
   ]
 }

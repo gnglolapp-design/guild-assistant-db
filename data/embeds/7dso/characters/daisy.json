@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "Daisy (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Daisy\nOriginal character with highly versatile and distinct playstyles per weapon. Sword & Shield features a free-to-use Dombie Riding transformation for sustained combat; Book deploys Shocking Street Lamps for passive Lightning damage and team Crit buffs; Magic Wand leverages Windseed and Stun for Crit-heavy burst combos.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_Daisy_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_Daisy_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "Original character with highly versatile and distinct playstyles per weapon. Sword & Shield features a free-to-use Dombie Riding transformation for sustained combat; Book deploys Shocking Street Lamps for passive Lightning damage and team Crit buffs; Magic Wand leverages Windseed and Stun for Crit-heavy burst combos.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,23 +1,30 @@
-﻿{
-  "title": "Meliodas",
-  "embeds": [
+{
+  "messages": [
     {
-      "title": "Meliodas (Fiche)",
-      "url": "https://hideoutgacha.com/games/seven-deadly-sins-origin/characters/meliodas",
-      "color": 13276928,
-      "description": "Résumé : ici tu trouveras la fiche complète (stats, armes, compétences, potentiels) en français.\n\nÀ retenir :\n• Utilise ça comme base de build\n• Ajuste selon ton équipe\n",
-      "footer": { "text": "Guild Assistant DB • Source : HideoutGacha" }
-    },
-    {
-      "title": "Stats",
-      "url": "https://hideoutgacha.com/games/seven-deadly-sins-origin/characters/meliodas",
-      "color": 13276928,
-      "fields": [
-        { "name": "PV", "value": "…", "inline": true },
-        { "name": "ATQ", "value": "…", "inline": true },
-        { "name": "DEF", "value": "…", "inline": true }
-      ],
-      "footer": { "text": "Guild Assistant DB • Données : exemple" }
+      "embeds": [
+        {
+          "title": "Meliodas (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Meliodas\nThe Dragon Sin of Wrath. All weapons share the Darkness element. Longsword rewards aggressive Burst play with massive Burst-activated damage boosts; Axe uses Demon Energy teleport combos for mobile DPS; Dual Swords is extremely fast with Demonic Power granting AOE damage and self-healing.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_meliodas_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_meliodas_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "The Dragon Sin of Wrath. All weapons share the Darkness element. Longsword rewards aggressive Burst play with massive Burst-activated damage boosts; Axe uses Demon Energy teleport combos for mobile DPS; Dual Swords is extremely fast with Demonic Power granting AOE damage and self-healing.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
     }
   ]
 }

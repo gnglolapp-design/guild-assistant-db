@@ -1,0 +1,30 @@
+{
+  "messages": [
+    {
+      "embeds": [
+        {
+          "title": "Jericho (Fiche)",
+          "color": 15911244,
+          "description": "Résumé : Jericho\nCold-element DPS with all three weapons sharing the same elemental type. Dual Swords excels at Frozen Saber back-attack combos; Lance provides strong team barrier support while dealing damage; Rapier leverages guaranteed Crits on Chilled/Frozen targets with powerful Crit Chance scaling.",
+          "thumbnail": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_jericho_001.png"
+          },
+          "image": {
+            "url": "/images/7ds/Portrait_hero/Portrait_hero_slot_jericho_001.png"
+          },
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        },
+        {
+          "title": "Overview",
+          "color": 15911244,
+          "description": "Cold-element DPS with all three weapons sharing the same elemental type. Dual Swords excels at Frozen Saber back-attack combos; Lance provides strong team barrier support while dealing damage; Rapier leverages guaranteed Crits on Chilled/Frozen targets with powerful Crit Chance scaling.",
+          "footer": {
+            "text": "Guild Assistant DB • Source : HideoutGacha"
+          }
+        }
+      ]
+    }
+  ]
+}
